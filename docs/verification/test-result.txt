@@ -1,0 +1,4 @@
+Passed: 53
+Scope: controlled child process; optional static installed-game profile
+Live game evidence: see docs/verification/live-test-result.json
+UTC: 2026-10-18T11:08:40.0904863Z

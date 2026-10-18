@@ -1,0 +1,39 @@
+PARANORMAL CLEANUP — TÜRKÇE TRAINER
+
+Yunus İNAN tarafından yazılmıştır.
+https://github.com/Terabithia1572/ParanormalCleanup-Trainer
+
+1. EXE ve EXE.config dosyalarını aynı klasörde tut.
+2. Oyunu aç ve tek oyunculu bir bölüme gir.
+3. ParanormalCleanup-Trainer.exe dosyasını çalıştır.
+4. Oyuna bağlan düğmesine veya Ctrl + Num 0 tuşlarına bas.
+5. Oyuncu bulundu durumunda özellikleri kullan.
+
+Num 1: Can sabitle
+Num 2: Dayanıklılık sabitle
+Num 3: Koşu çarpanı 2
+Num 4: Zıplama 900
+Num 5: Canlandırma süresi 0,25
+Num 6: Fener çarpanı 3
+Num 7: Görüş açısı 110
+Ctrl + Shift + Home: Özellik kısayollarını aç/kapat
+Ctrl + Num 0: Bağlan/ayır
+
+Num Lock açık olmalı. Tuşlar başka uygulamayla çakışırsa düğmeleri kullan.
+Tüm değerler bölümünde 138 alan var: 128 düzenlenebilir, 10 salt okunur.
+Uygula bir kez yazar. Sabitle değeri sürekli korur.
+Tümünü kapat sabitlemeleri kapatır. Normal X ile çıkış özgün kodu geri yükler.
+Tek seferlik Uygula değişiklikleri otomatik geri alınmaz. Kayıt/para/deneyim
+değişikliklerini oyun kaydedebilir. Can sabitle hasara bağışıklık değildir.
+
+Cheat Engine gerekmez. Windows x64 / .NET Framework 4.8 kullanır.
+Yalnızca README'de SHA-256 kimliği belirtilen oyun dosyası desteklenir.
+Başka sürümde veya çok oyunculu oturumda yazma yapılmaz.
+
+Doğrulandı: 53 motor testi, 23 arayüz testi; gerçek oyunda bağlantı,
+138 alanın okunması, 7 hızlı değerin değiştirilmesi ve geri yüklenmesi.
+Uzun oynanış, bölüm geçişleri ve tüm oyun mekanikleri ayrıca test edilmedi.
+
+CT: ndck76. sons-tr.exe görsel/kullanım referansı olarak REA ile incelendi.
+Bu uygulamanın arayüzü ve motoru ayrı kaynak kod olarak yazıldı.
+Kaynaklar ve ayrıntılı doğrulama, GitHub deposundaki README.md dosyasında.

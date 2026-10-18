@@ -1,0 +1,3 @@
+Passed: 23
+Scope: WPF layout, rendering, search, filtering and disabled controls
+UTC: 2026-10-18T11:08:41.2230065Z

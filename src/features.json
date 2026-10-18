@@ -1,0 +1,3128 @@
+[
+  {
+    "Id": 108766,
+    "Name": "Current Health",
+    "TurkishName": "Mevcut sağlık",
+    "Category": "Oyuncu",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1616
+    ],
+    "StringLength": 0,
+    "OwnerChain": [],
+    "PropertyName": "Health",
+    "DeclaringClass": "BP_PlayerCharacter_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 1616,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108767,
+    "Name": "Max Health",
+    "TurkishName": "Azami sağlık",
+    "Category": "Oyuncu",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1620
+    ],
+    "StringLength": 0,
+    "OwnerChain": [],
+    "PropertyName": "MaxHealth",
+    "DeclaringClass": "BP_PlayerCharacter_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 1620,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108759,
+    "Name": "Current Sprint Stamina",
+    "TurkishName": "Mevcut koşu dayanıklılığı",
+    "Category": "Oyuncu",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1460
+    ],
+    "StringLength": 0,
+    "OwnerChain": [],
+    "PropertyName": "currentSprintStamina",
+    "DeclaringClass": "BP_PlayerCharacter_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 1460,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108764,
+    "Name": "Max Sprint Stamina",
+    "TurkishName": "Azami koşu dayanıklılığı",
+    "Category": "Oyuncu",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1580
+    ],
+    "StringLength": 0,
+    "OwnerChain": [],
+    "PropertyName": "MaxSprintStamina",
+    "DeclaringClass": "BP_PlayerCharacter_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 1580,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108765,
+    "Name": "Stamina Recovery Rate",
+    "TurkishName": "Dayanıklılık yenilenme hızı",
+    "Category": "Oyuncu",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1584
+    ],
+    "StringLength": 0,
+    "OwnerChain": [],
+    "PropertyName": "StaminaRecoveryRate",
+    "DeclaringClass": "BP_PlayerCharacter_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 1584,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108760,
+    "Name": "Revive Duration",
+    "TurkishName": "Canlandırma süresi",
+    "Category": "Oyuncu",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1496
+    ],
+    "StringLength": 0,
+    "OwnerChain": [],
+    "PropertyName": "ReviveDuration",
+    "DeclaringClass": "BP_PlayerCharacter_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 1496,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108753,
+    "Name": "Mouse Sensitivity",
+    "TurkishName": "Fare hassasiyeti",
+    "Category": "Oyuncu",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1396
+    ],
+    "StringLength": 0,
+    "OwnerChain": [],
+    "PropertyName": "MouseSensitivity",
+    "DeclaringClass": "BP_PlayerCharacter_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 1396,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108754,
+    "Name": "Mouse Invert",
+    "TurkishName": "Fare eksenini ters çevirme",
+    "Category": "Oyuncu",
+    "Type": "Float",
+    "Writable": false,
+    "Chain": [
+      1400
+    ],
+    "StringLength": 0,
+    "OwnerChain": [],
+    "PropertyName": "MouseInvert",
+    "DeclaringClass": "BP_PlayerCharacter_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 1400,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108757,
+    "Name": "Sprint Speed",
+    "TurkishName": "Koşu hızı",
+    "Category": "Oyuncu",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1452
+    ],
+    "StringLength": 0,
+    "OwnerChain": [],
+    "PropertyName": "SprintSpeed",
+    "DeclaringClass": "BP_PlayerCharacter_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 1452,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108758,
+    "Name": "Walk Speed",
+    "TurkishName": "Yürüme hızı",
+    "Category": "Oyuncu",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1456
+    ],
+    "StringLength": 0,
+    "OwnerChain": [],
+    "PropertyName": "WalkSpeed",
+    "DeclaringClass": "BP_PlayerCharacter_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 1456,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108772,
+    "Name": "Player Prestige Level",
+    "TurkishName": "Oyuncu prestij seviyesi",
+    "Category": "Oyuncu",
+    "Type": "4 Bytes",
+    "Writable": true,
+    "Chain": [
+      1732
+    ],
+    "StringLength": 0,
+    "OwnerChain": [],
+    "PropertyName": "PlayerPrestigeLevel",
+    "DeclaringClass": "BP_PlayerCharacter_C",
+    "PropertyType": "IntProperty",
+    "PropertyOffset": 1732,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108768,
+    "Name": "Camera Location X",
+    "TurkishName": "Kamera konumu X",
+    "Category": "Oyuncu",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1652
+    ],
+    "StringLength": 0,
+    "OwnerChain": [],
+    "PropertyName": "CameraLocation",
+    "DeclaringClass": "BP_PlayerCharacter_C",
+    "PropertyType": "StructProperty",
+    "PropertyOffset": 1652,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108769,
+    "Name": "Camera Location Y",
+    "TurkishName": "Kamera konumu Y",
+    "Category": "Oyuncu",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1656
+    ],
+    "StringLength": 0,
+    "OwnerChain": [],
+    "PropertyName": "CameraLocation",
+    "DeclaringClass": "BP_PlayerCharacter_C",
+    "PropertyType": "StructProperty",
+    "PropertyOffset": 1652,
+    "ComponentOffset": 4
+  },
+  {
+    "Id": 108770,
+    "Name": "Camera Location Z",
+    "TurkishName": "Kamera konumu Z",
+    "Category": "Oyuncu",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1660
+    ],
+    "StringLength": 0,
+    "OwnerChain": [],
+    "PropertyName": "CameraLocation",
+    "DeclaringClass": "BP_PlayerCharacter_C",
+    "PropertyType": "StructProperty",
+    "PropertyOffset": 1652,
+    "ComponentOffset": 8
+  },
+  {
+    "Id": 108857,
+    "Name": "Jump Velocity",
+    "TurkishName": "Zıplama hızı",
+    "Category": "Oyuncu",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      648,
+      344
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      648
+    ],
+    "PropertyName": "JumpZVelocity",
+    "DeclaringClass": "CharacterMovementComponent",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 344,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108858,
+    "Name": "Walk Speed",
+    "TurkishName": "Hareket bileşeni yürüme hızı",
+    "Category": "Oyuncu",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      648,
+      396
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      648
+    ],
+    "PropertyName": "MaxWalkSpeed",
+    "DeclaringClass": "CharacterMovementComponent",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 396,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108859,
+    "Name": "Walk Speed Crouched",
+    "TurkishName": "Çömelerek yürüme hızı",
+    "Category": "Oyuncu",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      648,
+      400
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      648
+    ],
+    "PropertyName": "MaxWalkSpeedCrouched",
+    "DeclaringClass": "CharacterMovementComponent",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 400,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108907,
+    "Name": "Time Dilation",
+    "TurkishName": "Zaman akış hızı",
+    "Category": "Oyuncu",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      600,
+      664,
+      112,
+      120,
+      48,
+      600,
+      744
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      600,
+      664,
+      112,
+      120,
+      48,
+      600
+    ],
+    "PropertyName": "TimeDilation",
+    "DeclaringClass": "WorldSettings",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 744,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108773,
+    "Name": "Name",
+    "TurkishName": "Oyuncu adı",
+    "Category": "Yetenekler",
+    "Type": "String",
+    "Writable": false,
+    "Chain": [
+      1696,
+      0
+    ],
+    "StringLength": 128,
+    "OwnerChain": [],
+    "PropertyName": "PlayerName",
+    "DeclaringClass": "BP_PlayerCharacter_C",
+    "PropertyType": "StrProperty",
+    "PropertyOffset": 1696,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108774,
+    "Name": "Flashlight Intensity Multiplier",
+    "TurkishName": "El feneri parlaklık çarpanı",
+    "Category": "Yetenekler",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1328,
+      200
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1328
+    ],
+    "PropertyName": "FlashlightIntensityMultiplier",
+    "DeclaringClass": "BP_PerkComponent_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 200,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108775,
+    "Name": "Stamina Multiplier",
+    "TurkishName": "Dayanıklılık çarpanı",
+    "Category": "Yetenekler",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1328,
+      204
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1328
+    ],
+    "PropertyName": "StaminaMultiplier",
+    "DeclaringClass": "BP_PerkComponent_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 204,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108776,
+    "Name": "Sprint Speed Multiplier",
+    "TurkishName": "Koşu hızı çarpanı",
+    "Category": "Yetenekler",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1328,
+      208
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1328
+    ],
+    "PropertyName": "SprintSpeedMultiplier",
+    "DeclaringClass": "BP_PerkComponent_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 208,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108777,
+    "Name": "Stamina Recovery Rate Multiplier",
+    "TurkishName": "Dayanıklılık yenilenme çarpanı",
+    "Category": "Yetenekler",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1328,
+      224
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1328
+    ],
+    "PropertyName": "StaminaRecoveryRateMultiplier",
+    "DeclaringClass": "BP_PerkComponent_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 224,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108778,
+    "Name": "Is In Sight Range Multiplier",
+    "TurkishName": "Görüş menzili çarpanı",
+    "Category": "Yetenekler",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1328,
+      228
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1328
+    ],
+    "PropertyName": "IsInSightRangeMultiplier",
+    "DeclaringClass": "BP_PerkComponent_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 228,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108779,
+    "Name": "Revive Speed Multiplier",
+    "TurkishName": "Canlandırma hızı çarpanı",
+    "Category": "Yetenekler",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1328,
+      232
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1328
+    ],
+    "PropertyName": "ReviveSpeedMultiplier",
+    "DeclaringClass": "BP_PerkComponent_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 232,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108780,
+    "Name": "Walk Speed Multiplier Objective Progress",
+    "TurkishName": "Görev ilerlemesine bağlı yürüme çarpanı",
+    "Category": "Yetenekler",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1328,
+      236
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1328
+    ],
+    "PropertyName": "WalkSpeedMultiplier_ObjectiveProgress",
+    "DeclaringClass": "BP_PerkComponent_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 236,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108781,
+    "Name": "Base Walk Speed",
+    "TurkishName": "Temel yürüme hızı",
+    "Category": "Yetenekler",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1328,
+      240
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1328
+    ],
+    "PropertyName": "BaseWalkSpeed",
+    "DeclaringClass": "BP_PerkComponent_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 240,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108782,
+    "Name": "Base Sprint Speed",
+    "TurkishName": "Temel koşu hızı",
+    "Category": "Yetenekler",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1328,
+      244
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1328
+    ],
+    "PropertyName": "BaseSprintSpeed",
+    "DeclaringClass": "BP_PerkComponent_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 244,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108783,
+    "Name": "Objective Walk Speed Bonus Temp",
+    "TurkishName": "Geçici görev yürüme bonusu",
+    "Category": "Yetenekler",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1328,
+      248
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1328
+    ],
+    "PropertyName": "ObjectiveWalkSpeedBonus_Temp",
+    "DeclaringClass": "BP_PerkComponent_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 248,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108784,
+    "Name": "Objective Sprint Speed Bonus Temp",
+    "TurkishName": "Geçici görev koşu bonusu",
+    "Category": "Yetenekler",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1328,
+      252
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1328
+    ],
+    "PropertyName": "ObjectiveSprintSpeedBonus_Temp",
+    "DeclaringClass": "BP_PerkComponent_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 252,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108785,
+    "Name": "Carrying Objective Speed Boost Temp",
+    "TurkishName": "Geçici görev eşyası taşıma bonusu",
+    "Category": "Yetenekler",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1328,
+      256
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1328
+    ],
+    "PropertyName": "CarryingObjectiveSpeedBoost_Temp",
+    "DeclaringClass": "BP_PerkComponent_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 256,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108786,
+    "Name": "Walk Speed Multiplier Carrying Objective",
+    "TurkishName": "Görev eşyası taşırken yürüme çarpanı",
+    "Category": "Yetenekler",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1328,
+      260
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1328
+    ],
+    "PropertyName": "WalkSpeedMultiplier_CarryingObjective",
+    "DeclaringClass": "BP_PerkComponent_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 260,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108787,
+    "Name": "Walk Speed Multiplier Energy Drink",
+    "TurkishName": "Enerji içeceği yürüme çarpanı",
+    "Category": "Yetenekler",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1328,
+      264
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1328
+    ],
+    "PropertyName": "WalkSpeedMultiplier_EnergyDrink",
+    "DeclaringClass": "BP_PerkComponent_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 264,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108790,
+    "Name": "Crowbar Damage Multiplier",
+    "TurkishName": "Levye hasar çarpanı",
+    "Category": "Yetenekler",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1328,
+      276
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1328
+    ],
+    "PropertyName": "CrowbarDamageMultiplier",
+    "DeclaringClass": "BP_PerkComponent_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 276,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108791,
+    "Name": "Plunger Damage Multiplier",
+    "TurkishName": "Pompa hasar çarpanı",
+    "Category": "Yetenekler",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1328,
+      280
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1328
+    ],
+    "PropertyName": "PlungerDamageMultiplier",
+    "DeclaringClass": "BP_PerkComponent_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 280,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108792,
+    "Name": "Dustpan Damage Multiplier",
+    "TurkishName": "Faraş hasar çarpanı",
+    "Category": "Yetenekler",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1328,
+      284
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1328
+    ],
+    "PropertyName": "DustpanDamageMultiplier",
+    "DeclaringClass": "BP_PerkComponent_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 284,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108793,
+    "Name": "Money Reward Multiplier",
+    "TurkishName": "Para ödülü çarpanı",
+    "Category": "Yetenekler",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1328,
+      288
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1328
+    ],
+    "PropertyName": "MoneyRewardMultiplier",
+    "DeclaringClass": "BP_PerkComponent_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 288,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108797,
+    "Name": "Caffeine Rush Duration",
+    "TurkishName": "Kafein etkisi süresi",
+    "Category": "Yetenekler",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1328,
+      352
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1328
+    ],
+    "PropertyName": "CaffeineRushDuration",
+    "DeclaringClass": "BP_PerkComponent_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 352,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108798,
+    "Name": "Panic Pro Damage Multiplier",
+    "TurkishName": "Panic Pro hasar çarpanı",
+    "Category": "Yetenekler",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1328,
+      356
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1328
+    ],
+    "PropertyName": "PanicProDamageMultiplier",
+    "DeclaringClass": "BP_PerkComponent_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 356,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108799,
+    "Name": "Cleanup Quickstep Duration",
+    "TurkishName": "Hızlı temizlik etkisi süresi",
+    "Category": "Yetenekler",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1328,
+      360
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1328
+    ],
+    "PropertyName": "CleanupQuickstepDuration",
+    "DeclaringClass": "BP_PerkComponent_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 360,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108800,
+    "Name": "Sponge Damage Multiplier",
+    "TurkishName": "Sünger hasar çarpanı",
+    "Category": "Yetenekler",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1328,
+      364
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1328
+    ],
+    "PropertyName": "SpongeDamageMultiplier",
+    "DeclaringClass": "BP_PerkComponent_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 364,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108801,
+    "Name": "Paint Brush Damage Multiplier",
+    "TurkishName": "Boya fırçası hasar çarpanı",
+    "Category": "Yetenekler",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1328,
+      368
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1328
+    ],
+    "PropertyName": "PaintBrushDamageMultiplier",
+    "DeclaringClass": "BP_PerkComponent_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 368,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108803,
+    "Name": "Cleaning Damage Multiplier",
+    "TurkishName": "Temizlik gücü çarpanı",
+    "Category": "Yetenekler",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1328,
+      400
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1328
+    ],
+    "PropertyName": "CleaningDamageMultiplier",
+    "DeclaringClass": "BP_PerkComponent_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 400,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108802,
+    "Name": "Panic Paint Roller Damage Multiplier Temp",
+    "TurkishName": "Geçici panik boya rulosu çarpanı",
+    "Category": "Yetenekler",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1328,
+      396
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1328
+    ],
+    "PropertyName": "Panic_PaintRollerDamageMultiplier_temp",
+    "DeclaringClass": "BP_PerkComponent_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 396,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108788,
+    "Name": "Energy Drink Walk Speed Bonus Temp",
+    "TurkishName": "Geçici enerji içeceği yürüme bonusu",
+    "Category": "Yetenekler",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1328,
+      268
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1328
+    ],
+    "PropertyName": "EnergyDrinkWalkSpeedBonus_Temp",
+    "DeclaringClass": "BP_PerkComponent_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 268,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108789,
+    "Name": "Energy Drink Sprint Speed Bonus Temp",
+    "TurkishName": "Geçici enerji içeceği koşu bonusu",
+    "Category": "Yetenekler",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1328,
+      272
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1328
+    ],
+    "PropertyName": "EnergyDrinkSprintSpeedBonus_Temp",
+    "DeclaringClass": "BP_PerkComponent_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 272,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108794,
+    "Name": "Panic Plunger Damage Multiplier Temp",
+    "TurkishName": "Geçici panik pompa çarpanı",
+    "Category": "Yetenekler",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1328,
+      312
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1328
+    ],
+    "PropertyName": "Panic_PlungerDamageMultiplier_temp",
+    "DeclaringClass": "BP_PerkComponent_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 312,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108795,
+    "Name": "Panic Dustpan Damage Multiplier Temp",
+    "TurkishName": "Geçici panik faraş çarpanı",
+    "Category": "Yetenekler",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1328,
+      316
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1328
+    ],
+    "PropertyName": "Panic_DustpanDamageMultiplier_temp",
+    "DeclaringClass": "BP_PerkComponent_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 316,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108805,
+    "Name": "Attack Speed",
+    "TurkishName": "Saldırı hızı",
+    "Category": "Eldeki eşya",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1552,
+      564
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1552
+    ],
+    "PropertyName": "AttackSpeed",
+    "DeclaringClass": "BP_UseableItem_Base_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 564,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108806,
+    "Name": "Attack Damage",
+    "TurkishName": "Saldırı hasarı",
+    "Category": "Eldeki eşya",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1552,
+      568
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1552
+    ],
+    "PropertyName": "AttackDamage",
+    "DeclaringClass": "BP_UseableItem_Base_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 568,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108807,
+    "Name": "Attack Range",
+    "TurkishName": "Saldırı menzili",
+    "Category": "Eldeki eşya",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1552,
+      572
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1552
+    ],
+    "PropertyName": "AttackRange",
+    "DeclaringClass": "BP_UseableItem_Base_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 572,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108811,
+    "Name": "Flashlight Intensity",
+    "TurkishName": "El feneri parlaklığı",
+    "Category": "Eldeki eşya",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1552,
+      652
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1552
+    ],
+    "PropertyName": "FlashlightIntensity",
+    "DeclaringClass": "BP_UsableItem_Flashlight_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 652,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108812,
+    "Name": "Outer Cone Angle",
+    "TurkishName": "Işığın dış koni açısı",
+    "Category": "Eldeki eşya",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1552,
+      656
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1552
+    ],
+    "PropertyName": "OuterConeAngle",
+    "DeclaringClass": "BP_UsableItem_Flashlight_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 656,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108814,
+    "Name": "On Activate UV Light",
+    "TurkishName": "UV açma olay alanı",
+    "Category": "Eldeki eşya",
+    "Type": "4 Bytes",
+    "Writable": false,
+    "Chain": [
+      1552,
+      672
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1552
+    ],
+    "PropertyName": "onActivateUVLight",
+    "DeclaringClass": "BP_UsableItem_Flashlight_C",
+    "PropertyType": "MulticastInlineDelegateProperty",
+    "PropertyOffset": 672,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108815,
+    "Name": "On Deactivate UV Light",
+    "TurkishName": "UV kapatma olay alanı",
+    "Category": "Eldeki eşya",
+    "Type": "4 Bytes",
+    "Writable": false,
+    "Chain": [
+      1552,
+      688
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1552
+    ],
+    "PropertyName": "onDeactivateUVLight",
+    "DeclaringClass": "BP_UsableItem_Flashlight_C",
+    "PropertyType": "MulticastInlineDelegateProperty",
+    "PropertyOffset": 688,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108809,
+    "Name": "Is Equipped",
+    "TurkishName": "Eşya kuşanılmış",
+    "Category": "Eldeki eşya",
+    "Type": "Byte",
+    "Writable": false,
+    "Chain": [
+      1552,
+      648
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1552
+    ],
+    "PropertyName": "isEquipped",
+    "DeclaringClass": "BP_UsableItem_Flashlight_C",
+    "PropertyType": "BoolProperty",
+    "PropertyOffset": 648,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108810,
+    "Name": "Flashlight On",
+    "TurkishName": "El feneri açık",
+    "Category": "Eldeki eşya",
+    "Type": "Byte",
+    "Writable": true,
+    "Chain": [
+      1552,
+      649
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1552
+    ],
+    "PropertyName": "FlashlightOn",
+    "DeclaringClass": "BP_UsableItem_Flashlight_C",
+    "PropertyType": "BoolProperty",
+    "PropertyOffset": 649,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108813,
+    "Name": "Is UV Light",
+    "TurkishName": "UV ışık türü",
+    "Category": "Eldeki eşya",
+    "Type": "Byte",
+    "Writable": false,
+    "Chain": [
+      1552,
+      664
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1552
+    ],
+    "PropertyName": "isUVLight",
+    "DeclaringClass": "BP_UsableItem_Flashlight_C",
+    "PropertyType": "BoolProperty",
+    "PropertyOffset": 664,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108818,
+    "Name": "Ghost Rage",
+    "TurkishName": "Hayalet öfkesi",
+    "Category": "Hayalet",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1488,
+      1280
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1488
+    ],
+    "PropertyName": "GhostRage",
+    "DeclaringClass": "BP_EnemyGhost_Base_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 1280,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108824,
+    "Name": "Walk Speed",
+    "TurkishName": "Yürüme hızı",
+    "Category": "Hayalet",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1488,
+      1416
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1488
+    ],
+    "PropertyName": "WalkSpeed",
+    "DeclaringClass": "BP_EnemyGhost_Base_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 1416,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108825,
+    "Name": "Chase Speed",
+    "TurkishName": "Kovalama hızı",
+    "Category": "Hayalet",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1488,
+      1420
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1488
+    ],
+    "PropertyName": "ChaseSpeed",
+    "DeclaringClass": "BP_EnemyGhost_Base_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 1420,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108826,
+    "Name": "Hunting Cooldown",
+    "TurkishName": "Av bekleme süresi",
+    "Category": "Hayalet",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1488,
+      1424
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1488
+    ],
+    "PropertyName": "HuntingCooldown",
+    "DeclaringClass": "BP_EnemyGhost_Base_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 1424,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108827,
+    "Name": "Kill Light Cooldown",
+    "TurkishName": "Işık söndürme bekleme süresi",
+    "Category": "Hayalet",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1488,
+      1428
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1488
+    ],
+    "PropertyName": "KillLightCooldown",
+    "DeclaringClass": "BP_EnemyGhost_Base_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 1428,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108828,
+    "Name": "Enrage Duration",
+    "TurkishName": "Öfke süresi",
+    "Category": "Hayalet",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1488,
+      1432
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1488
+    ],
+    "PropertyName": "EnrageDuration",
+    "DeclaringClass": "BP_EnemyGhost_Base_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 1432,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108829,
+    "Name": "Enrage Cooldown",
+    "TurkishName": "Öfke bekleme süresi",
+    "Category": "Hayalet",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1488,
+      1436
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1488
+    ],
+    "PropertyName": "EnrageCooldown",
+    "DeclaringClass": "BP_EnemyGhost_Base_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 1436,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108830,
+    "Name": "Stuck Counter",
+    "TurkishName": "Takılı kalma sayacı",
+    "Category": "Hayalet",
+    "Type": "4 Bytes",
+    "Writable": true,
+    "Chain": [
+      1488,
+      1456
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1488
+    ],
+    "PropertyName": "StuckCounter",
+    "DeclaringClass": "BP_EnemyGhost_Base_C",
+    "PropertyType": "IntProperty",
+    "PropertyOffset": 1456,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108832,
+    "Name": "Melee Damage",
+    "TurkishName": "Yakın dövüş hasarı",
+    "Category": "Hayalet",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1488,
+      1512
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1488
+    ],
+    "PropertyName": "MeleeDamage",
+    "DeclaringClass": "BP_EnemyGhost_Base_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 1512,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108833,
+    "Name": "Walk Speed Normal",
+    "TurkishName": "Normal zorlukta yürüme hızı",
+    "Category": "Hayalet",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1488,
+      1568
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1488
+    ],
+    "PropertyName": "WalkSpeed_Normal",
+    "DeclaringClass": "BP_EnemyGhost_Base_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 1568,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108834,
+    "Name": "Walk Speed Hard",
+    "TurkishName": "Zor zorlukta yürüme hızı",
+    "Category": "Hayalet",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1488,
+      1572
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1488
+    ],
+    "PropertyName": "WalkSpeed_Hard",
+    "DeclaringClass": "BP_EnemyGhost_Base_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 1572,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108835,
+    "Name": "Chase Speed Normal",
+    "TurkishName": "Normal zorlukta kovalama hızı",
+    "Category": "Hayalet",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1488,
+      1576
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1488
+    ],
+    "PropertyName": "ChaseSpeed_Normal",
+    "DeclaringClass": "BP_EnemyGhost_Base_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 1576,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108836,
+    "Name": "Chase Speed Hard",
+    "TurkishName": "Zor zorlukta kovalama hızı",
+    "Category": "Hayalet",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1488,
+      1580
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1488
+    ],
+    "PropertyName": "ChaseSpeed_Hard",
+    "DeclaringClass": "BP_EnemyGhost_Base_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 1580,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108837,
+    "Name": "Hunting Cooldown Normal",
+    "TurkishName": "Normal zorlukta av bekleme süresi",
+    "Category": "Hayalet",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1488,
+      1584
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1488
+    ],
+    "PropertyName": "HuntingCooldown_Normal",
+    "DeclaringClass": "BP_EnemyGhost_Base_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 1584,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108838,
+    "Name": "Hunting Cooldown Hard",
+    "TurkishName": "Zor zorlukta av bekleme süresi",
+    "Category": "Hayalet",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1488,
+      1588
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1488
+    ],
+    "PropertyName": "HuntingCooldown_Hard",
+    "DeclaringClass": "BP_EnemyGhost_Base_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 1588,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108839,
+    "Name": "Hunting Duration Normal",
+    "TurkishName": "Normal zorlukta av süresi",
+    "Category": "Hayalet",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1488,
+      1592
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1488
+    ],
+    "PropertyName": "HuntingDuration_Normal",
+    "DeclaringClass": "BP_EnemyGhost_Base_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 1592,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108840,
+    "Name": "Hunting Duration Hard",
+    "TurkishName": "Zor zorlukta av süresi",
+    "Category": "Hayalet",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1488,
+      1596
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1488
+    ],
+    "PropertyName": "HuntingDuration_Hard",
+    "DeclaringClass": "BP_EnemyGhost_Base_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 1596,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108841,
+    "Name": "Kill Light Cooldown Normal",
+    "TurkishName": "Normal zorlukta ışık söndürme aralığı",
+    "Category": "Hayalet",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1488,
+      1600
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1488
+    ],
+    "PropertyName": "KillLightCooldown_Normal",
+    "DeclaringClass": "BP_EnemyGhost_Base_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 1600,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108842,
+    "Name": "Kill Light Cooldown Hard",
+    "TurkishName": "Zor zorlukta ışık söndürme aralığı",
+    "Category": "Hayalet",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1488,
+      1604
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1488
+    ],
+    "PropertyName": "KillLightCooldown_Hard",
+    "DeclaringClass": "BP_EnemyGhost_Base_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 1604,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108843,
+    "Name": "Enrage Duration Normal",
+    "TurkishName": "Normal zorlukta öfke süresi",
+    "Category": "Hayalet",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1488,
+      1608
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1488
+    ],
+    "PropertyName": "EnrageDuration_Normal",
+    "DeclaringClass": "BP_EnemyGhost_Base_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 1608,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108844,
+    "Name": "Enrage Duration Hard",
+    "TurkishName": "Zor zorlukta öfke süresi",
+    "Category": "Hayalet",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1488,
+      1612
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1488
+    ],
+    "PropertyName": "EnrageDuration_Hard",
+    "DeclaringClass": "BP_EnemyGhost_Base_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 1612,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108845,
+    "Name": "Enrage Cooldown Normal",
+    "TurkishName": "Normal zorlukta öfke bekleme süresi",
+    "Category": "Hayalet",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1488,
+      1616
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1488
+    ],
+    "PropertyName": "EnrageCooldown_Normal",
+    "DeclaringClass": "BP_EnemyGhost_Base_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 1616,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108846,
+    "Name": "Enrage Cooldown Hard",
+    "TurkishName": "Zor zorlukta öfke bekleme süresi",
+    "Category": "Hayalet",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1488,
+      1620
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1488
+    ],
+    "PropertyName": "EnrageCooldown_Hard",
+    "DeclaringClass": "BP_EnemyGhost_Base_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 1620,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108847,
+    "Name": "Rage On Match Start Normal",
+    "TurkishName": "Normal zorlukta maç başı öfke",
+    "Category": "Hayalet",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1488,
+      1624
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1488
+    ],
+    "PropertyName": "RageOnMatchStart_Normal",
+    "DeclaringClass": "BP_EnemyGhost_Base_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 1624,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108848,
+    "Name": "Rage On Match Start Hard",
+    "TurkishName": "Zor zorlukta maç başı öfke",
+    "Category": "Hayalet",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1488,
+      1628
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1488
+    ],
+    "PropertyName": "RageOnMatchStart_Hard",
+    "DeclaringClass": "BP_EnemyGhost_Base_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 1628,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108851,
+    "Name": "Initial Chase Speed",
+    "TurkishName": "Başlangıç kovalama hızı",
+    "Category": "Hayalet",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1488,
+      1756
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1488
+    ],
+    "PropertyName": "InitialChaseSpeed",
+    "DeclaringClass": "BP_EnemyGhost_Base_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 1756,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108852,
+    "Name": "Time Of Chase",
+    "TurkishName": "Kovalama süresi",
+    "Category": "Hayalet",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      1488,
+      1760
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1488
+    ],
+    "PropertyName": "timeofchase",
+    "DeclaringClass": "BP_EnemyGhost_Base_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 1760,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108819,
+    "Name": "Target In Melee Range",
+    "TurkishName": "Hedef yakın dövüş menzilinde",
+    "Category": "Hayalet",
+    "Type": "Byte",
+    "Writable": true,
+    "Chain": [
+      1488,
+      1284
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1488
+    ],
+    "PropertyName": "TargetInMeleeRange",
+    "DeclaringClass": "BP_EnemyGhost_Base_C",
+    "PropertyType": "BoolProperty",
+    "PropertyOffset": 1284,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108820,
+    "Name": "Chasing Player",
+    "TurkishName": "Oyuncuyu kovalıyor",
+    "Category": "Hayalet",
+    "Type": "Byte",
+    "Writable": true,
+    "Chain": [
+      1488,
+      1285
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1488
+    ],
+    "PropertyName": "ChasingPlayer",
+    "DeclaringClass": "BP_EnemyGhost_Base_C",
+    "PropertyType": "BoolProperty",
+    "PropertyOffset": 1285,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108821,
+    "Name": "Is Hunting",
+    "TurkishName": "Avlanıyor",
+    "Category": "Hayalet",
+    "Type": "Byte",
+    "Writable": true,
+    "Chain": [
+      1488,
+      1312
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1488
+    ],
+    "PropertyName": "isHunting",
+    "DeclaringClass": "BP_EnemyGhost_Base_C",
+    "PropertyType": "BoolProperty",
+    "PropertyOffset": 1312,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108822,
+    "Name": "Is In Rage",
+    "TurkishName": "Öfkeli",
+    "Category": "Hayalet",
+    "Type": "Byte",
+    "Writable": true,
+    "Chain": [
+      1488,
+      1368
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1488
+    ],
+    "PropertyName": "isInRage",
+    "DeclaringClass": "BP_EnemyGhost_Base_C",
+    "PropertyType": "BoolProperty",
+    "PropertyOffset": 1368,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108823,
+    "Name": "Is Lurking",
+    "TurkishName": "Pusuda bekliyor",
+    "Category": "Hayalet",
+    "Type": "Byte",
+    "Writable": true,
+    "Chain": [
+      1488,
+      1392
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1488
+    ],
+    "PropertyName": "isLurking",
+    "DeclaringClass": "BP_EnemyGhost_Base_C",
+    "PropertyType": "BoolProperty",
+    "PropertyOffset": 1392,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108831,
+    "Name": "Is Busy",
+    "TurkishName": "Meşgul",
+    "Category": "Hayalet",
+    "Type": "Byte",
+    "Writable": true,
+    "Chain": [
+      1488,
+      1496
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1488
+    ],
+    "PropertyName": "isBusy",
+    "DeclaringClass": "BP_EnemyGhost_Base_C",
+    "PropertyType": "BoolProperty",
+    "PropertyOffset": 1496,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108849,
+    "Name": "Is Allowed To Get Active",
+    "TurkishName": "Etkinleşmesine izin veriliyor",
+    "Category": "Hayalet",
+    "Type": "Byte",
+    "Writable": true,
+    "Chain": [
+      1488,
+      1752
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1488
+    ],
+    "PropertyName": "isAllowedToGetActive",
+    "DeclaringClass": "BP_EnemyGhost_Base_C",
+    "PropertyType": "BoolProperty",
+    "PropertyOffset": 1752,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108850,
+    "Name": "Can Shut Doors",
+    "TurkishName": "Kapıları kapatabilir",
+    "Category": "Hayalet",
+    "Type": "Byte",
+    "Writable": true,
+    "Chain": [
+      1488,
+      1753
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1488
+    ],
+    "PropertyName": "canShutDoors",
+    "DeclaringClass": "BP_EnemyGhost_Base_C",
+    "PropertyType": "BoolProperty",
+    "PropertyOffset": 1753,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108853,
+    "Name": "Play Level Sequence",
+    "TurkishName": "Sahne sekansını oynatma durumu",
+    "Category": "Hayalet",
+    "Type": "Byte",
+    "Writable": false,
+    "Chain": [
+      1488,
+      1824
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      1488
+    ],
+    "PropertyName": "PlayLevelSequence",
+    "DeclaringClass": "BP_EnemyGhost_Grandma_C",
+    "PropertyType": "BoolProperty",
+    "PropertyOffset": 1824,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108860,
+    "Name": "Experience Gained This Match",
+    "TurkishName": "Bu maçta kazanılan deneyim",
+    "Category": "Maç bilgileri",
+    "Type": "4 Bytes",
+    "Writable": true,
+    "Chain": [
+      600,
+      1616
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      600
+    ],
+    "PropertyName": "EXPGainedThisMatch",
+    "DeclaringClass": "BP_PlayerController_Match_C",
+    "PropertyType": "IntProperty",
+    "PropertyOffset": 1616,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108861,
+    "Name": "Money Gained This Match",
+    "TurkishName": "Bu maçta kazanılan para",
+    "Category": "Maç bilgileri",
+    "Type": "4 Bytes",
+    "Writable": true,
+    "Chain": [
+      600,
+      1620
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      600
+    ],
+    "PropertyName": "MoneyGainedThisMatch",
+    "DeclaringClass": "BP_PlayerController_Match_C",
+    "PropertyType": "IntProperty",
+    "PropertyOffset": 1620,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108862,
+    "Name": "Currently Active Inventory Slot",
+    "TurkishName": "Etkin envanter yuvası",
+    "Category": "Maç bilgileri",
+    "Type": "4 Bytes",
+    "Writable": false,
+    "Chain": [
+      600,
+      1600
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      600
+    ],
+    "PropertyName": "CurrentlyActiveInventorySlot",
+    "DeclaringClass": "BP_PlayerController_Match_C",
+    "PropertyType": "IntProperty",
+    "PropertyOffset": 1600,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108863,
+    "Name": "Was Chased",
+    "TurkishName": "Bu maçta kovalandı",
+    "Category": "Maç bilgileri",
+    "Type": "Byte",
+    "Writable": true,
+    "Chain": [
+      600,
+      1568
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      600
+    ],
+    "PropertyName": "wasChased",
+    "DeclaringClass": "BP_PlayerController_Match_C",
+    "PropertyType": "BoolProperty",
+    "PropertyOffset": 1568,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108864,
+    "Name": "Was Downed",
+    "TurkishName": "Bu maçta yere düştü",
+    "Category": "Maç bilgileri",
+    "Type": "Byte",
+    "Writable": true,
+    "Chain": [
+      600,
+      1569
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      600
+    ],
+    "PropertyName": "wasDowned",
+    "DeclaringClass": "BP_PlayerController_Match_C",
+    "PropertyType": "BoolProperty",
+    "PropertyOffset": 1569,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108865,
+    "Name": "Active InventorySlot Item ID",
+    "TurkishName": "Etkin yuvadaki eşyanın kimliği",
+    "Category": "Maç bilgileri",
+    "Type": "Byte",
+    "Writable": false,
+    "Chain": [
+      600,
+      1604
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      600
+    ],
+    "PropertyName": "Active InventorySlot Item ID",
+    "DeclaringClass": "BP_PlayerController_Match_C",
+    "PropertyType": "ByteProperty",
+    "PropertyOffset": 1604,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108885,
+    "Name": "Player Level",
+    "TurkishName": "Oyuncu seviyesi",
+    "Category": "Oyun oturumu",
+    "Type": "4 Bytes",
+    "Writable": true,
+    "Chain": [
+      600,
+      664,
+      112,
+      128,
+      632
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      600,
+      664,
+      112,
+      128
+    ],
+    "PropertyName": "Player Level",
+    "DeclaringClass": "BP_GameInstance_C",
+    "PropertyType": "IntProperty",
+    "PropertyOffset": 632,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108886,
+    "Name": "Teammates Revived",
+    "TurkishName": "Canlandırılan takım arkadaşı sayısı",
+    "Category": "Oyun oturumu",
+    "Type": "4 Bytes",
+    "Writable": true,
+    "Chain": [
+      600,
+      664,
+      112,
+      128,
+      656
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      600,
+      664,
+      112,
+      128
+    ],
+    "PropertyName": "Teammates Revived",
+    "DeclaringClass": "BP_GameInstance_C",
+    "PropertyType": "IntProperty",
+    "PropertyOffset": 656,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108887,
+    "Name": "Keys Found",
+    "TurkishName": "Bulunan anahtar sayısı",
+    "Category": "Oyun oturumu",
+    "Type": "4 Bytes",
+    "Writable": true,
+    "Chain": [
+      600,
+      664,
+      112,
+      128,
+      660
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      600,
+      664,
+      112,
+      128
+    ],
+    "PropertyName": "Keys Found",
+    "DeclaringClass": "BP_GameInstance_C",
+    "PropertyType": "IntProperty",
+    "PropertyOffset": 660,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108888,
+    "Name": "Games Won",
+    "TurkishName": "Kazanılan maç sayısı",
+    "Category": "Oyun oturumu",
+    "Type": "4 Bytes",
+    "Writable": true,
+    "Chain": [
+      600,
+      664,
+      112,
+      128,
+      664
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      600,
+      664,
+      112,
+      128
+    ],
+    "PropertyName": "Games Won",
+    "DeclaringClass": "BP_GameInstance_C",
+    "PropertyType": "IntProperty",
+    "PropertyOffset": 664,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108889,
+    "Name": "Trashbags Taken Out",
+    "TurkishName": "Dışarı çıkarılan çöp torbası sayısı",
+    "Category": "Oyun oturumu",
+    "Type": "4 Bytes",
+    "Writable": true,
+    "Chain": [
+      600,
+      664,
+      112,
+      128,
+      668
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      600,
+      664,
+      112,
+      128
+    ],
+    "PropertyName": "Trashbags Taken Out",
+    "DeclaringClass": "BP_GameInstance_C",
+    "PropertyType": "IntProperty",
+    "PropertyOffset": 668,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108891,
+    "Name": "Experience",
+    "TurkishName": "Deneyim",
+    "Category": "Oyun oturumu",
+    "Type": "4 Bytes",
+    "Writable": true,
+    "Chain": [
+      600,
+      664,
+      112,
+      128,
+      688
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      600,
+      664,
+      112,
+      128
+    ],
+    "PropertyName": "Experience",
+    "DeclaringClass": "BP_GameInstance_C",
+    "PropertyType": "IntProperty",
+    "PropertyOffset": 688,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108898,
+    "Name": "Experience Before Match",
+    "TurkishName": "Maç öncesi deneyim",
+    "Category": "Oyun oturumu",
+    "Type": "4 Bytes",
+    "Writable": true,
+    "Chain": [
+      600,
+      664,
+      112,
+      128,
+      1264
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      600,
+      664,
+      112,
+      128
+    ],
+    "PropertyName": "ExperienceBeforeMatch",
+    "DeclaringClass": "BP_GameInstance_C",
+    "PropertyType": "IntProperty",
+    "PropertyOffset": 1264,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108892,
+    "Name": "Mouse Sensitivity",
+    "TurkishName": "Fare hassasiyeti",
+    "Category": "Oyun oturumu",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      600,
+      664,
+      112,
+      128,
+      696
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      600,
+      664,
+      112,
+      128
+    ],
+    "PropertyName": "Mouse Sensitivity",
+    "DeclaringClass": "BP_GameInstance_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 696,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108894,
+    "Name": "Session Experience Reward On WIn",
+    "TurkishName": "Maç kazanma deneyim ödülü",
+    "Category": "Oyun oturumu",
+    "Type": "4 Bytes",
+    "Writable": true,
+    "Chain": [
+      600,
+      664,
+      112,
+      128,
+      704
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      600,
+      664,
+      112,
+      128
+    ],
+    "PropertyName": "SessionEXPRewardOnWIn",
+    "DeclaringClass": "BP_GameInstance_C",
+    "PropertyType": "IntProperty",
+    "PropertyOffset": 704,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108895,
+    "Name": "Pizzas Disposed",
+    "TurkishName": "Atılan pizza sayısı",
+    "Category": "Oyun oturumu",
+    "Type": "4 Bytes",
+    "Writable": true,
+    "Chain": [
+      600,
+      664,
+      112,
+      128,
+      804
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      600,
+      664,
+      112,
+      128
+    ],
+    "PropertyName": "Pizzas Disposed",
+    "DeclaringClass": "BP_GameInstance_C",
+    "PropertyType": "IntProperty",
+    "PropertyOffset": 804,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108896,
+    "Name": "Player Money",
+    "TurkishName": "Oyuncunun parası",
+    "Category": "Oyun oturumu",
+    "Type": "4 Bytes",
+    "Writable": true,
+    "Chain": [
+      600,
+      664,
+      112,
+      128,
+      904
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      600,
+      664,
+      112,
+      128
+    ],
+    "PropertyName": "PlayerMoney",
+    "DeclaringClass": "BP_GameInstance_C",
+    "PropertyType": "IntProperty",
+    "PropertyOffset": 904,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108899,
+    "Name": "Player Money Before Match",
+    "TurkishName": "Maç öncesi para",
+    "Category": "Oyun oturumu",
+    "Type": "4 Bytes",
+    "Writable": true,
+    "Chain": [
+      600,
+      664,
+      112,
+      128,
+      1268
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      600,
+      664,
+      112,
+      128
+    ],
+    "PropertyName": "PlayerMoneyBeforeMatch",
+    "DeclaringClass": "BP_GameInstance_C",
+    "PropertyType": "IntProperty",
+    "PropertyOffset": 1268,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108897,
+    "Name": "Toilets Unclogged",
+    "TurkishName": "Açılan tıkalı tuvalet sayısı",
+    "Category": "Oyun oturumu",
+    "Type": "4 Bytes",
+    "Writable": true,
+    "Chain": [
+      600,
+      664,
+      112,
+      128,
+      1232
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      600,
+      664,
+      112,
+      128
+    ],
+    "PropertyName": "Toilets Unclogged",
+    "DeclaringClass": "BP_GameInstance_C",
+    "PropertyType": "IntProperty",
+    "PropertyOffset": 1232,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108900,
+    "Name": "Ectoplasm Cleaned",
+    "TurkishName": "Temizlenen ektoplazma sayısı",
+    "Category": "Oyun oturumu",
+    "Type": "4 Bytes",
+    "Writable": true,
+    "Chain": [
+      600,
+      664,
+      112,
+      128,
+      1304
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      600,
+      664,
+      112,
+      128
+    ],
+    "PropertyName": "EctoplasmCleaned",
+    "DeclaringClass": "BP_GameInstance_C",
+    "PropertyType": "IntProperty",
+    "PropertyOffset": 1304,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108901,
+    "Name": "Satanic Symbols Overpainted",
+    "TurkishName": "Üzeri boyanan şeytani sembol sayısı",
+    "Category": "Oyun oturumu",
+    "Type": "4 Bytes",
+    "Writable": true,
+    "Chain": [
+      600,
+      664,
+      112,
+      128,
+      1308
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      600,
+      664,
+      112,
+      128
+    ],
+    "PropertyName": "SatanicSymbolsOverpainted",
+    "DeclaringClass": "BP_GameInstance_C",
+    "PropertyType": "IntProperty",
+    "PropertyOffset": 1308,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108902,
+    "Name": "Power Turned Back On",
+    "TurkishName": "Elektriği yeniden açma sayısı",
+    "Category": "Oyun oturumu",
+    "Type": "4 Bytes",
+    "Writable": true,
+    "Chain": [
+      600,
+      664,
+      112,
+      128,
+      1472
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      600,
+      664,
+      112,
+      128
+    ],
+    "PropertyName": "PowerTurnedBackOn",
+    "DeclaringClass": "BP_GameInstance_C",
+    "PropertyType": "IntProperty",
+    "PropertyOffset": 1472,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108903,
+    "Name": "Wood Planks Removed",
+    "TurkishName": "Sökülen tahta sayısı",
+    "Category": "Oyun oturumu",
+    "Type": "4 Bytes",
+    "Writable": true,
+    "Chain": [
+      600,
+      664,
+      112,
+      128,
+      1476
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      600,
+      664,
+      112,
+      128
+    ],
+    "PropertyName": "WoodPlanksRemoved",
+    "DeclaringClass": "BP_GameInstance_C",
+    "PropertyType": "IntProperty",
+    "PropertyOffset": 1476,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108904,
+    "Name": "FOV",
+    "TurkishName": "Görüş açısı (FOV)",
+    "Category": "Oyun oturumu",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      600,
+      664,
+      112,
+      128,
+      1688
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      600,
+      664,
+      112,
+      128
+    ],
+    "PropertyName": "FOV",
+    "DeclaringClass": "BP_GameInstance_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 1688,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108905,
+    "Name": "Prestige Overflow Experience",
+    "TurkishName": "Prestij sonrası biriken deneyim",
+    "Category": "Oyun oturumu",
+    "Type": "4 Bytes",
+    "Writable": true,
+    "Chain": [
+      600,
+      664,
+      112,
+      128,
+      1736
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      600,
+      664,
+      112,
+      128
+    ],
+    "PropertyName": "PrestigeOverflowEXP",
+    "DeclaringClass": "BP_GameInstance_C",
+    "PropertyType": "IntProperty",
+    "PropertyOffset": 1736,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108890,
+    "Name": "Is Playing Multiplayer",
+    "TurkishName": "Çok oyunculu oturum",
+    "Category": "Oyun oturumu",
+    "Type": "Byte",
+    "Writable": false,
+    "Chain": [
+      600,
+      664,
+      112,
+      128,
+      672
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      600,
+      664,
+      112,
+      128
+    ],
+    "PropertyName": "isPlayingMultiplayer",
+    "DeclaringClass": "BP_GameInstance_C",
+    "PropertyType": "BoolProperty",
+    "PropertyOffset": 672,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108893,
+    "Name": "Mouse Invert",
+    "TurkishName": "Fare eksenini ters çevirme",
+    "Category": "Oyun oturumu",
+    "Type": "Byte",
+    "Writable": true,
+    "Chain": [
+      600,
+      664,
+      112,
+      128,
+      700
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      600,
+      664,
+      112,
+      128
+    ],
+    "PropertyName": "Mouse Invert",
+    "DeclaringClass": "BP_GameInstance_C",
+    "PropertyType": "BoolProperty",
+    "PropertyOffset": 700,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108867,
+    "Name": "Experience",
+    "TurkishName": "Deneyim",
+    "Category": "Kayıt verileri",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      600,
+      664,
+      112,
+      128,
+      576,
+      40
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      600,
+      664,
+      112,
+      128,
+      576
+    ],
+    "PropertyName": "Experience",
+    "DeclaringClass": "BP_SaveGame_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 40,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108868,
+    "Name": "Experienced Needed To Level Up",
+    "TurkishName": "Seviye atlamak için gereken deneyim",
+    "Category": "Kayıt verileri",
+    "Type": "Float",
+    "Writable": true,
+    "Chain": [
+      600,
+      664,
+      112,
+      128,
+      576,
+      44
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      600,
+      664,
+      112,
+      128,
+      576
+    ],
+    "PropertyName": "experiencedNeededToLevelUp",
+    "DeclaringClass": "BP_SaveGame_C",
+    "PropertyType": "FloatProperty",
+    "PropertyOffset": 44,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108869,
+    "Name": "Player Level",
+    "TurkishName": "Oyuncu seviyesi",
+    "Category": "Kayıt verileri",
+    "Type": "4 Bytes",
+    "Writable": true,
+    "Chain": [
+      600,
+      664,
+      112,
+      128,
+      576,
+      48
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      600,
+      664,
+      112,
+      128,
+      576
+    ],
+    "PropertyName": "PlayerLevel",
+    "DeclaringClass": "BP_SaveGame_C",
+    "PropertyType": "IntProperty",
+    "PropertyOffset": 48,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108876,
+    "Name": "Player Money",
+    "TurkishName": "Oyuncunun parası",
+    "Category": "Kayıt verileri",
+    "Type": "4 Bytes",
+    "Writable": true,
+    "Chain": [
+      600,
+      664,
+      112,
+      128,
+      576,
+      224
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      600,
+      664,
+      112,
+      128,
+      576
+    ],
+    "PropertyName": "PlayerMoney",
+    "DeclaringClass": "BP_SaveGame_C",
+    "PropertyType": "IntProperty",
+    "PropertyOffset": 224,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108870,
+    "Name": "Trashpiles Cleaned",
+    "TurkishName": "Temizlenen çöp yığını sayısı",
+    "Category": "Kayıt verileri",
+    "Type": "4 Bytes",
+    "Writable": true,
+    "Chain": [
+      600,
+      664,
+      112,
+      128,
+      576,
+      72
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      600,
+      664,
+      112,
+      128,
+      576
+    ],
+    "PropertyName": "Trashpiles Cleaned",
+    "DeclaringClass": "BP_SaveGame_C",
+    "PropertyType": "IntProperty",
+    "PropertyOffset": 72,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108871,
+    "Name": "Teammates Revived",
+    "TurkishName": "Canlandırılan takım arkadaşı sayısı",
+    "Category": "Kayıt verileri",
+    "Type": "4 Bytes",
+    "Writable": true,
+    "Chain": [
+      600,
+      664,
+      112,
+      128,
+      576,
+      76
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      600,
+      664,
+      112,
+      128,
+      576
+    ],
+    "PropertyName": "Teammates Revived",
+    "DeclaringClass": "BP_SaveGame_C",
+    "PropertyType": "IntProperty",
+    "PropertyOffset": 76,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108872,
+    "Name": "Keys Found",
+    "TurkishName": "Bulunan anahtar sayısı",
+    "Category": "Kayıt verileri",
+    "Type": "4 Bytes",
+    "Writable": true,
+    "Chain": [
+      600,
+      664,
+      112,
+      128,
+      576,
+      80
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      600,
+      664,
+      112,
+      128,
+      576
+    ],
+    "PropertyName": "Keys Found",
+    "DeclaringClass": "BP_SaveGame_C",
+    "PropertyType": "IntProperty",
+    "PropertyOffset": 80,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108873,
+    "Name": "Games Won",
+    "TurkishName": "Kazanılan maç sayısı",
+    "Category": "Kayıt verileri",
+    "Type": "4 Bytes",
+    "Writable": true,
+    "Chain": [
+      600,
+      664,
+      112,
+      128,
+      576,
+      84
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      600,
+      664,
+      112,
+      128,
+      576
+    ],
+    "PropertyName": "Games Won",
+    "DeclaringClass": "BP_SaveGame_C",
+    "PropertyType": "IntProperty",
+    "PropertyOffset": 84,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108874,
+    "Name": "Trashbags Taken Out",
+    "TurkishName": "Dışarı çıkarılan çöp torbası sayısı",
+    "Category": "Kayıt verileri",
+    "Type": "4 Bytes",
+    "Writable": true,
+    "Chain": [
+      600,
+      664,
+      112,
+      128,
+      576,
+      88
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      600,
+      664,
+      112,
+      128,
+      576
+    ],
+    "PropertyName": "Trashbags Taken Out",
+    "DeclaringClass": "BP_SaveGame_C",
+    "PropertyType": "IntProperty",
+    "PropertyOffset": 88,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108875,
+    "Name": "Pizzas Disposed",
+    "TurkishName": "Atılan pizza sayısı",
+    "Category": "Kayıt verileri",
+    "Type": "4 Bytes",
+    "Writable": true,
+    "Chain": [
+      600,
+      664,
+      112,
+      128,
+      576,
+      92
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      600,
+      664,
+      112,
+      128,
+      576
+    ],
+    "PropertyName": "Pizzas Disposed",
+    "DeclaringClass": "BP_SaveGame_C",
+    "PropertyType": "IntProperty",
+    "PropertyOffset": 92,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108877,
+    "Name": "Toilets Unclogged",
+    "TurkishName": "Açılan tıkalı tuvalet sayısı",
+    "Category": "Kayıt verileri",
+    "Type": "4 Bytes",
+    "Writable": true,
+    "Chain": [
+      600,
+      664,
+      112,
+      128,
+      576,
+      228
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      600,
+      664,
+      112,
+      128,
+      576
+    ],
+    "PropertyName": "Toilets Unclogged",
+    "DeclaringClass": "BP_SaveGame_C",
+    "PropertyType": "IntProperty",
+    "PropertyOffset": 228,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108878,
+    "Name": "Ectoplasm Cleaned",
+    "TurkishName": "Temizlenen ektoplazma sayısı",
+    "Category": "Kayıt verileri",
+    "Type": "4 Bytes",
+    "Writable": true,
+    "Chain": [
+      600,
+      664,
+      112,
+      128,
+      576,
+      264
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      600,
+      664,
+      112,
+      128,
+      576
+    ],
+    "PropertyName": "EctoplasmCleaned",
+    "DeclaringClass": "BP_SaveGame_C",
+    "PropertyType": "IntProperty",
+    "PropertyOffset": 264,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108879,
+    "Name": "Satanic Symbols Overpainted",
+    "TurkishName": "Üzeri boyanan şeytani sembol sayısı",
+    "Category": "Kayıt verileri",
+    "Type": "4 Bytes",
+    "Writable": true,
+    "Chain": [
+      600,
+      664,
+      112,
+      128,
+      576,
+      268
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      600,
+      664,
+      112,
+      128,
+      576
+    ],
+    "PropertyName": "SatanicSymbolsOverpainted",
+    "DeclaringClass": "BP_SaveGame_C",
+    "PropertyType": "IntProperty",
+    "PropertyOffset": 268,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108880,
+    "Name": "Power Turned Back On",
+    "TurkishName": "Elektriği yeniden açma sayısı",
+    "Category": "Kayıt verileri",
+    "Type": "4 Bytes",
+    "Writable": true,
+    "Chain": [
+      600,
+      664,
+      112,
+      128,
+      576,
+      272
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      600,
+      664,
+      112,
+      128,
+      576
+    ],
+    "PropertyName": "PowerTurnedBackOn",
+    "DeclaringClass": "BP_SaveGame_C",
+    "PropertyType": "IntProperty",
+    "PropertyOffset": 272,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108881,
+    "Name": "Wood Planks Removed",
+    "TurkishName": "Sökülen tahta sayısı",
+    "Category": "Kayıt verileri",
+    "Type": "4 Bytes",
+    "Writable": true,
+    "Chain": [
+      600,
+      664,
+      112,
+      128,
+      576,
+      276
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      600,
+      664,
+      112,
+      128,
+      576
+    ],
+    "PropertyName": "WoodPlanksRemoved",
+    "DeclaringClass": "BP_SaveGame_C",
+    "PropertyType": "IntProperty",
+    "PropertyOffset": 276,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108882,
+    "Name": "Prestige Level",
+    "TurkishName": "Prestij seviyesi",
+    "Category": "Kayıt verileri",
+    "Type": "4 Bytes",
+    "Writable": true,
+    "Chain": [
+      600,
+      664,
+      112,
+      128,
+      576,
+      576
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      600,
+      664,
+      112,
+      128,
+      576
+    ],
+    "PropertyName": "PrestigeLevel",
+    "DeclaringClass": "BP_SaveGame_C",
+    "PropertyType": "IntProperty",
+    "PropertyOffset": 576,
+    "ComponentOffset": 0
+  },
+  {
+    "Id": 108883,
+    "Name": "Prestige Overflow Experience",
+    "TurkishName": "Prestij sonrası biriken deneyim",
+    "Category": "Kayıt verileri",
+    "Type": "4 Bytes",
+    "Writable": true,
+    "Chain": [
+      600,
+      664,
+      112,
+      128,
+      576,
+      608
+    ],
+    "StringLength": 0,
+    "OwnerChain": [
+      600,
+      664,
+      112,
+      128,
+      576
+    ],
+    "PropertyName": "PrestigeOverflowEXP",
+    "DeclaringClass": "BP_SaveGame_C",
+    "PropertyType": "IntProperty",
+    "PropertyOffset": 608,
+    "ComponentOffset": 0
+  }
+]

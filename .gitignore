@@ -1,0 +1,21 @@
+# Generated binaries and local analysis, including third-party reference files.
+/build/
+/analysis/
+*.exe
+*.dll
+*.pdb
+*.zip
+*.CT
+/*.exe.config
+
+# Local tooling and credentials.
+/.codex/
+/.agents/
+/.vs/
+/.vscode/
+.env
+.env.*
+*.user
+*.suo
+Thumbs.db
+Desktop.ini

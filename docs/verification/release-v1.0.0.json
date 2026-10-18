@@ -1,0 +1,25 @@
+{
+  "motorTests": 53,
+  "uiTests": 23,
+  "liveProperties": 138,
+  "liveQuickOptions": 7,
+  "liveCodeRestored": true,
+  "gameplayCoverage": "Memory behavior verified; long play, all mechanics and level transitions not verified",
+  "sourceTableUnchanged": true,
+  "executableSha256": "AE65D76C7CF88602723DC7A4A845D616B5D00CC258394FD2BF707C527DC5F08E",
+  "zipSha256": "BD53F69E414604690824A8F082374E0009FA1FF8E1C804B5E21B100D3CCD8AFE",
+  "zipEntries": [
+    {
+      "FullName": "ParanormalCleanup-Trainer.exe",
+      "Length": 141824
+    },
+    {
+      "FullName": "ParanormalCleanup-Trainer.exe.config",
+      "Length": 199
+    },
+    {
+      "FullName": "KULLANIM.txt",
+      "Length": 1837
+    }
+  ]
+}

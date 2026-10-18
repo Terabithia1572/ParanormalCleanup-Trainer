@@ -1,0 +1,1421 @@
+{
+  "source": "read-only live UE property metadata",
+  "gameSha256": "9a06f5834c8a7593e05ec92de6bfeec6cb975bae63a303a9615fbab006fbcc9e",
+  "featuresVerified": 138,
+  "changed": 99,
+  "nameBlocksRva": "4802F90",
+  "changes": [
+    {
+      "id": 108766,
+      "name": "Current Health",
+      "old": [
+        "630"
+      ],
+      "updated": [
+        "650"
+      ],
+      "property": "Health",
+      "declaringClass": "BP_PlayerCharacter_C"
+    },
+    {
+      "id": 108767,
+      "name": "Max Health",
+      "old": [
+        "634"
+      ],
+      "updated": [
+        "654"
+      ],
+      "property": "MaxHealth",
+      "declaringClass": "BP_PlayerCharacter_C"
+    },
+    {
+      "id": 108759,
+      "name": "Current Sprint Stamina",
+      "old": [
+        "594"
+      ],
+      "updated": [
+        "5b4"
+      ],
+      "property": "currentSprintStamina",
+      "declaringClass": "BP_PlayerCharacter_C"
+    },
+    {
+      "id": 108764,
+      "name": "Max Sprint Stamina",
+      "old": [
+        "60c"
+      ],
+      "updated": [
+        "62c"
+      ],
+      "property": "MaxSprintStamina",
+      "declaringClass": "BP_PlayerCharacter_C"
+    },
+    {
+      "id": 108765,
+      "name": "Stamina Recovery Rate",
+      "old": [
+        "610"
+      ],
+      "updated": [
+        "630"
+      ],
+      "property": "StaminaRecoveryRate",
+      "declaringClass": "BP_PlayerCharacter_C"
+    },
+    {
+      "id": 108760,
+      "name": "Revive Duration",
+      "old": [
+        "5b8"
+      ],
+      "updated": [
+        "5d8"
+      ],
+      "property": "ReviveDuration",
+      "declaringClass": "BP_PlayerCharacter_C"
+    },
+    {
+      "id": 108753,
+      "name": "Mouse Sensitivity",
+      "old": [
+        "554"
+      ],
+      "updated": [
+        "574"
+      ],
+      "property": "MouseSensitivity",
+      "declaringClass": "BP_PlayerCharacter_C"
+    },
+    {
+      "id": 108754,
+      "name": "Mouse Invert",
+      "old": [
+        "558"
+      ],
+      "updated": [
+        "578"
+      ],
+      "property": "MouseInvert",
+      "declaringClass": "BP_PlayerCharacter_C"
+    },
+    {
+      "id": 108757,
+      "name": "Sprint Speed",
+      "old": [
+        "58c"
+      ],
+      "updated": [
+        "5ac"
+      ],
+      "property": "SprintSpeed",
+      "declaringClass": "BP_PlayerCharacter_C"
+    },
+    {
+      "id": 108758,
+      "name": "Walk Speed",
+      "old": [
+        "590"
+      ],
+      "updated": [
+        "5b0"
+      ],
+      "property": "WalkSpeed",
+      "declaringClass": "BP_PlayerCharacter_C"
+    },
+    {
+      "id": 108772,
+      "name": "Player Prestige Level",
+      "old": [
+        "6a4"
+      ],
+      "updated": [
+        "6c4"
+      ],
+      "property": "PlayerPrestigeLevel",
+      "declaringClass": "BP_PlayerCharacter_C"
+    },
+    {
+      "id": 108768,
+      "name": "Camera Location X",
+      "old": [
+        "654"
+      ],
+      "updated": [
+        "674"
+      ],
+      "property": "CameraLocation",
+      "declaringClass": "BP_PlayerCharacter_C"
+    },
+    {
+      "id": 108769,
+      "name": "Camera Location Y",
+      "old": [
+        "658"
+      ],
+      "updated": [
+        "678"
+      ],
+      "property": "CameraLocation",
+      "declaringClass": "BP_PlayerCharacter_C"
+    },
+    {
+      "id": 108770,
+      "name": "Camera Location Z",
+      "old": [
+        "65c"
+      ],
+      "updated": [
+        "67c"
+      ],
+      "property": "CameraLocation",
+      "declaringClass": "BP_PlayerCharacter_C"
+    },
+    {
+      "id": 108773,
+      "name": "Name",
+      "old": [
+        "680",
+        "0"
+      ],
+      "updated": [
+        "6a0",
+        "0"
+      ],
+      "property": "PlayerName",
+      "declaringClass": "BP_PlayerCharacter_C"
+    },
+    {
+      "id": 108774,
+      "name": "Flashlight Intensity Multiplier",
+      "old": [
+        "510",
+        "c8"
+      ],
+      "updated": [
+        "530",
+        "c8"
+      ],
+      "property": "FlashlightIntensityMultiplier",
+      "declaringClass": "BP_PerkComponent_C"
+    },
+    {
+      "id": 108775,
+      "name": "Stamina Multiplier",
+      "old": [
+        "510",
+        "cc"
+      ],
+      "updated": [
+        "530",
+        "cc"
+      ],
+      "property": "StaminaMultiplier",
+      "declaringClass": "BP_PerkComponent_C"
+    },
+    {
+      "id": 108776,
+      "name": "Sprint Speed Multiplier",
+      "old": [
+        "510",
+        "d0"
+      ],
+      "updated": [
+        "530",
+        "d0"
+      ],
+      "property": "SprintSpeedMultiplier",
+      "declaringClass": "BP_PerkComponent_C"
+    },
+    {
+      "id": 108777,
+      "name": "Stamina Recovery Rate Multiplier",
+      "old": [
+        "510",
+        "e0"
+      ],
+      "updated": [
+        "530",
+        "e0"
+      ],
+      "property": "StaminaRecoveryRateMultiplier",
+      "declaringClass": "BP_PerkComponent_C"
+    },
+    {
+      "id": 108778,
+      "name": "Is In Sight Range Multiplier",
+      "old": [
+        "510",
+        "e4"
+      ],
+      "updated": [
+        "530",
+        "e4"
+      ],
+      "property": "IsInSightRangeMultiplier",
+      "declaringClass": "BP_PerkComponent_C"
+    },
+    {
+      "id": 108779,
+      "name": "Revive Speed Multiplier",
+      "old": [
+        "510",
+        "e8"
+      ],
+      "updated": [
+        "530",
+        "e8"
+      ],
+      "property": "ReviveSpeedMultiplier",
+      "declaringClass": "BP_PerkComponent_C"
+    },
+    {
+      "id": 108780,
+      "name": "Walk Speed Multiplier Objective Progress",
+      "old": [
+        "510",
+        "ec"
+      ],
+      "updated": [
+        "530",
+        "ec"
+      ],
+      "property": "WalkSpeedMultiplier_ObjectiveProgress",
+      "declaringClass": "BP_PerkComponent_C"
+    },
+    {
+      "id": 108781,
+      "name": "Base Walk Speed",
+      "old": [
+        "510",
+        "f0"
+      ],
+      "updated": [
+        "530",
+        "f0"
+      ],
+      "property": "BaseWalkSpeed",
+      "declaringClass": "BP_PerkComponent_C"
+    },
+    {
+      "id": 108782,
+      "name": "Base Sprint Speed",
+      "old": [
+        "510",
+        "f4"
+      ],
+      "updated": [
+        "530",
+        "f4"
+      ],
+      "property": "BaseSprintSpeed",
+      "declaringClass": "BP_PerkComponent_C"
+    },
+    {
+      "id": 108783,
+      "name": "Objective Walk Speed Bonus Temp",
+      "old": [
+        "510",
+        "f8"
+      ],
+      "updated": [
+        "530",
+        "f8"
+      ],
+      "property": "ObjectiveWalkSpeedBonus_Temp",
+      "declaringClass": "BP_PerkComponent_C"
+    },
+    {
+      "id": 108784,
+      "name": "Objective Sprint Speed Bonus Temp",
+      "old": [
+        "510",
+        "fc"
+      ],
+      "updated": [
+        "530",
+        "fc"
+      ],
+      "property": "ObjectiveSprintSpeedBonus_Temp",
+      "declaringClass": "BP_PerkComponent_C"
+    },
+    {
+      "id": 108785,
+      "name": "Carrying Objective Speed Boost Temp",
+      "old": [
+        "510",
+        "100"
+      ],
+      "updated": [
+        "530",
+        "100"
+      ],
+      "property": "CarryingObjectiveSpeedBoost_Temp",
+      "declaringClass": "BP_PerkComponent_C"
+    },
+    {
+      "id": 108786,
+      "name": "Walk Speed Multiplier Carrying Objective",
+      "old": [
+        "510",
+        "104"
+      ],
+      "updated": [
+        "530",
+        "104"
+      ],
+      "property": "WalkSpeedMultiplier_CarryingObjective",
+      "declaringClass": "BP_PerkComponent_C"
+    },
+    {
+      "id": 108787,
+      "name": "Walk Speed Multiplier Energy Drink",
+      "old": [
+        "510",
+        "108"
+      ],
+      "updated": [
+        "530",
+        "108"
+      ],
+      "property": "WalkSpeedMultiplier_EnergyDrink",
+      "declaringClass": "BP_PerkComponent_C"
+    },
+    {
+      "id": 108790,
+      "name": "Crowbar Damage Multiplier",
+      "old": [
+        "510",
+        "114"
+      ],
+      "updated": [
+        "530",
+        "114"
+      ],
+      "property": "CrowbarDamageMultiplier",
+      "declaringClass": "BP_PerkComponent_C"
+    },
+    {
+      "id": 108791,
+      "name": "Plunger Damage Multiplier",
+      "old": [
+        "510",
+        "118"
+      ],
+      "updated": [
+        "530",
+        "118"
+      ],
+      "property": "PlungerDamageMultiplier",
+      "declaringClass": "BP_PerkComponent_C"
+    },
+    {
+      "id": 108792,
+      "name": "Dustpan Damage Multiplier",
+      "old": [
+        "510",
+        "11c"
+      ],
+      "updated": [
+        "530",
+        "11c"
+      ],
+      "property": "DustpanDamageMultiplier",
+      "declaringClass": "BP_PerkComponent_C"
+    },
+    {
+      "id": 108793,
+      "name": "Money Reward Multiplier",
+      "old": [
+        "510",
+        "120"
+      ],
+      "updated": [
+        "530",
+        "120"
+      ],
+      "property": "MoneyRewardMultiplier",
+      "declaringClass": "BP_PerkComponent_C"
+    },
+    {
+      "id": 108797,
+      "name": "Caffeine Rush Duration",
+      "old": [
+        "510",
+        "160"
+      ],
+      "updated": [
+        "530",
+        "160"
+      ],
+      "property": "CaffeineRushDuration",
+      "declaringClass": "BP_PerkComponent_C"
+    },
+    {
+      "id": 108798,
+      "name": "Panic Pro Damage Multiplier",
+      "old": [
+        "510",
+        "164"
+      ],
+      "updated": [
+        "530",
+        "164"
+      ],
+      "property": "PanicProDamageMultiplier",
+      "declaringClass": "BP_PerkComponent_C"
+    },
+    {
+      "id": 108799,
+      "name": "Cleanup Quickstep Duration",
+      "old": [
+        "510",
+        "168"
+      ],
+      "updated": [
+        "530",
+        "168"
+      ],
+      "property": "CleanupQuickstepDuration",
+      "declaringClass": "BP_PerkComponent_C"
+    },
+    {
+      "id": 108800,
+      "name": "Sponge Damage Multiplier",
+      "old": [
+        "510",
+        "16c"
+      ],
+      "updated": [
+        "530",
+        "16c"
+      ],
+      "property": "SpongeDamageMultiplier",
+      "declaringClass": "BP_PerkComponent_C"
+    },
+    {
+      "id": 108801,
+      "name": "Paint Brush Damage Multiplier",
+      "old": [
+        "510",
+        "170"
+      ],
+      "updated": [
+        "530",
+        "170"
+      ],
+      "property": "PaintBrushDamageMultiplier",
+      "declaringClass": "BP_PerkComponent_C"
+    },
+    {
+      "id": 108803,
+      "name": "Cleaning Damage Multiplier",
+      "old": [
+        "510",
+        "190"
+      ],
+      "updated": [
+        "530",
+        "190"
+      ],
+      "property": "CleaningDamageMultiplier",
+      "declaringClass": "BP_PerkComponent_C"
+    },
+    {
+      "id": 108802,
+      "name": "Panic Paint Roller Damage Multiplier Temp",
+      "old": [
+        "510",
+        "18c"
+      ],
+      "updated": [
+        "530",
+        "18c"
+      ],
+      "property": "Panic_PaintRollerDamageMultiplier_temp",
+      "declaringClass": "BP_PerkComponent_C"
+    },
+    {
+      "id": 108788,
+      "name": "Energy Drink Walk Speed Bonus Temp",
+      "old": [
+        "510",
+        "10c"
+      ],
+      "updated": [
+        "530",
+        "10c"
+      ],
+      "property": "EnergyDrinkWalkSpeedBonus_Temp",
+      "declaringClass": "BP_PerkComponent_C"
+    },
+    {
+      "id": 108789,
+      "name": "Energy Drink Sprint Speed Bonus Temp",
+      "old": [
+        "510",
+        "110"
+      ],
+      "updated": [
+        "530",
+        "110"
+      ],
+      "property": "EnergyDrinkSprintSpeedBonus_Temp",
+      "declaringClass": "BP_PerkComponent_C"
+    },
+    {
+      "id": 108794,
+      "name": "Panic Plunger Damage Multiplier Temp",
+      "old": [
+        "510",
+        "138"
+      ],
+      "updated": [
+        "530",
+        "138"
+      ],
+      "property": "Panic_PlungerDamageMultiplier_temp",
+      "declaringClass": "BP_PerkComponent_C"
+    },
+    {
+      "id": 108795,
+      "name": "Panic Dustpan Damage Multiplier Temp",
+      "old": [
+        "510",
+        "13c"
+      ],
+      "updated": [
+        "530",
+        "13c"
+      ],
+      "property": "Panic_DustpanDamageMultiplier_temp",
+      "declaringClass": "BP_PerkComponent_C"
+    },
+    {
+      "id": 108805,
+      "name": "Attack Speed",
+      "old": [
+        "5f0",
+        "234"
+      ],
+      "updated": [
+        "610",
+        "234"
+      ],
+      "property": "AttackSpeed",
+      "declaringClass": "BP_UseableItem_Base_C"
+    },
+    {
+      "id": 108806,
+      "name": "Attack Damage",
+      "old": [
+        "5f0",
+        "238"
+      ],
+      "updated": [
+        "610",
+        "238"
+      ],
+      "property": "AttackDamage",
+      "declaringClass": "BP_UseableItem_Base_C"
+    },
+    {
+      "id": 108807,
+      "name": "Attack Range",
+      "old": [
+        "5f0",
+        "23c"
+      ],
+      "updated": [
+        "610",
+        "23c"
+      ],
+      "property": "AttackRange",
+      "declaringClass": "BP_UseableItem_Base_C"
+    },
+    {
+      "id": 108811,
+      "name": "Flashlight Intensity",
+      "old": [
+        "5f0",
+        "28c"
+      ],
+      "updated": [
+        "610",
+        "28c"
+      ],
+      "property": "FlashlightIntensity",
+      "declaringClass": "BP_UsableItem_Flashlight_C"
+    },
+    {
+      "id": 108812,
+      "name": "Outer Cone Angle",
+      "old": [
+        "5f0",
+        "290"
+      ],
+      "updated": [
+        "610",
+        "290"
+      ],
+      "property": "OuterConeAngle",
+      "declaringClass": "BP_UsableItem_Flashlight_C"
+    },
+    {
+      "id": 108814,
+      "name": "On Activate UV Light",
+      "old": [
+        "5f0",
+        "2a0"
+      ],
+      "updated": [
+        "610",
+        "2a0"
+      ],
+      "property": "onActivateUVLight",
+      "declaringClass": "BP_UsableItem_Flashlight_C"
+    },
+    {
+      "id": 108815,
+      "name": "On Deactivate UV Light",
+      "old": [
+        "5f0",
+        "2b0"
+      ],
+      "updated": [
+        "610",
+        "2b0"
+      ],
+      "property": "onDeactivateUVLight",
+      "declaringClass": "BP_UsableItem_Flashlight_C"
+    },
+    {
+      "id": 108809,
+      "name": "Is Equipped",
+      "old": [
+        "5f0",
+        "288"
+      ],
+      "updated": [
+        "610",
+        "288"
+      ],
+      "property": "isEquipped",
+      "declaringClass": "BP_UsableItem_Flashlight_C"
+    },
+    {
+      "id": 108810,
+      "name": "Flashlight On",
+      "old": [
+        "5f0",
+        "289"
+      ],
+      "updated": [
+        "610",
+        "289"
+      ],
+      "property": "FlashlightOn",
+      "declaringClass": "BP_UsableItem_Flashlight_C"
+    },
+    {
+      "id": 108813,
+      "name": "Is UV Light",
+      "old": [
+        "5f0",
+        "298"
+      ],
+      "updated": [
+        "610",
+        "298"
+      ],
+      "property": "isUVLight",
+      "declaringClass": "BP_UsableItem_Flashlight_C"
+    },
+    {
+      "id": 108818,
+      "name": "Ghost Rage",
+      "old": [
+        "5b0",
+        "500"
+      ],
+      "updated": [
+        "5d0",
+        "500"
+      ],
+      "property": "GhostRage",
+      "declaringClass": "BP_EnemyGhost_Base_C"
+    },
+    {
+      "id": 108824,
+      "name": "Walk Speed",
+      "old": [
+        "5b0",
+        "588"
+      ],
+      "updated": [
+        "5d0",
+        "588"
+      ],
+      "property": "WalkSpeed",
+      "declaringClass": "BP_EnemyGhost_Base_C"
+    },
+    {
+      "id": 108825,
+      "name": "Chase Speed",
+      "old": [
+        "5b0",
+        "58c"
+      ],
+      "updated": [
+        "5d0",
+        "58c"
+      ],
+      "property": "ChaseSpeed",
+      "declaringClass": "BP_EnemyGhost_Base_C"
+    },
+    {
+      "id": 108826,
+      "name": "Hunting Cooldown",
+      "old": [
+        "5b0",
+        "590"
+      ],
+      "updated": [
+        "5d0",
+        "590"
+      ],
+      "property": "HuntingCooldown",
+      "declaringClass": "BP_EnemyGhost_Base_C"
+    },
+    {
+      "id": 108827,
+      "name": "Kill Light Cooldown",
+      "old": [
+        "5b0",
+        "594"
+      ],
+      "updated": [
+        "5d0",
+        "594"
+      ],
+      "property": "KillLightCooldown",
+      "declaringClass": "BP_EnemyGhost_Base_C"
+    },
+    {
+      "id": 108828,
+      "name": "Enrage Duration",
+      "old": [
+        "5b0",
+        "598"
+      ],
+      "updated": [
+        "5d0",
+        "598"
+      ],
+      "property": "EnrageDuration",
+      "declaringClass": "BP_EnemyGhost_Base_C"
+    },
+    {
+      "id": 108829,
+      "name": "Enrage Cooldown",
+      "old": [
+        "5b0",
+        "59c"
+      ],
+      "updated": [
+        "5d0",
+        "59c"
+      ],
+      "property": "EnrageCooldown",
+      "declaringClass": "BP_EnemyGhost_Base_C"
+    },
+    {
+      "id": 108830,
+      "name": "Stuck Counter",
+      "old": [
+        "5b0",
+        "5b0"
+      ],
+      "updated": [
+        "5d0",
+        "5b0"
+      ],
+      "property": "StuckCounter",
+      "declaringClass": "BP_EnemyGhost_Base_C"
+    },
+    {
+      "id": 108832,
+      "name": "Melee Damage",
+      "old": [
+        "5b0",
+        "5e8"
+      ],
+      "updated": [
+        "5d0",
+        "5e8"
+      ],
+      "property": "MeleeDamage",
+      "declaringClass": "BP_EnemyGhost_Base_C"
+    },
+    {
+      "id": 108833,
+      "name": "Walk Speed Normal",
+      "old": [
+        "5b0",
+        "620"
+      ],
+      "updated": [
+        "5d0",
+        "620"
+      ],
+      "property": "WalkSpeed_Normal",
+      "declaringClass": "BP_EnemyGhost_Base_C"
+    },
+    {
+      "id": 108834,
+      "name": "Walk Speed Hard",
+      "old": [
+        "5b0",
+        "624"
+      ],
+      "updated": [
+        "5d0",
+        "624"
+      ],
+      "property": "WalkSpeed_Hard",
+      "declaringClass": "BP_EnemyGhost_Base_C"
+    },
+    {
+      "id": 108835,
+      "name": "Chase Speed Normal",
+      "old": [
+        "5b0",
+        "628"
+      ],
+      "updated": [
+        "5d0",
+        "628"
+      ],
+      "property": "ChaseSpeed_Normal",
+      "declaringClass": "BP_EnemyGhost_Base_C"
+    },
+    {
+      "id": 108836,
+      "name": "Chase Speed Hard",
+      "old": [
+        "5b0",
+        "62c"
+      ],
+      "updated": [
+        "5d0",
+        "62c"
+      ],
+      "property": "ChaseSpeed_Hard",
+      "declaringClass": "BP_EnemyGhost_Base_C"
+    },
+    {
+      "id": 108837,
+      "name": "Hunting Cooldown Normal",
+      "old": [
+        "5b0",
+        "630"
+      ],
+      "updated": [
+        "5d0",
+        "630"
+      ],
+      "property": "HuntingCooldown_Normal",
+      "declaringClass": "BP_EnemyGhost_Base_C"
+    },
+    {
+      "id": 108838,
+      "name": "Hunting Cooldown Hard",
+      "old": [
+        "5b0",
+        "634"
+      ],
+      "updated": [
+        "5d0",
+        "634"
+      ],
+      "property": "HuntingCooldown_Hard",
+      "declaringClass": "BP_EnemyGhost_Base_C"
+    },
+    {
+      "id": 108839,
+      "name": "Hunting Duration Normal",
+      "old": [
+        "5b0",
+        "638"
+      ],
+      "updated": [
+        "5d0",
+        "638"
+      ],
+      "property": "HuntingDuration_Normal",
+      "declaringClass": "BP_EnemyGhost_Base_C"
+    },
+    {
+      "id": 108840,
+      "name": "Hunting Duration Hard",
+      "old": [
+        "5b0",
+        "63c"
+      ],
+      "updated": [
+        "5d0",
+        "63c"
+      ],
+      "property": "HuntingDuration_Hard",
+      "declaringClass": "BP_EnemyGhost_Base_C"
+    },
+    {
+      "id": 108841,
+      "name": "Kill Light Cooldown Normal",
+      "old": [
+        "5b0",
+        "640"
+      ],
+      "updated": [
+        "5d0",
+        "640"
+      ],
+      "property": "KillLightCooldown_Normal",
+      "declaringClass": "BP_EnemyGhost_Base_C"
+    },
+    {
+      "id": 108842,
+      "name": "Kill Light Cooldown Hard",
+      "old": [
+        "5b0",
+        "644"
+      ],
+      "updated": [
+        "5d0",
+        "644"
+      ],
+      "property": "KillLightCooldown_Hard",
+      "declaringClass": "BP_EnemyGhost_Base_C"
+    },
+    {
+      "id": 108843,
+      "name": "Enrage Duration Normal",
+      "old": [
+        "5b0",
+        "648"
+      ],
+      "updated": [
+        "5d0",
+        "648"
+      ],
+      "property": "EnrageDuration_Normal",
+      "declaringClass": "BP_EnemyGhost_Base_C"
+    },
+    {
+      "id": 108844,
+      "name": "Enrage Duration Hard",
+      "old": [
+        "5b0",
+        "64c"
+      ],
+      "updated": [
+        "5d0",
+        "64c"
+      ],
+      "property": "EnrageDuration_Hard",
+      "declaringClass": "BP_EnemyGhost_Base_C"
+    },
+    {
+      "id": 108845,
+      "name": "Enrage Cooldown Normal",
+      "old": [
+        "5b0",
+        "650"
+      ],
+      "updated": [
+        "5d0",
+        "650"
+      ],
+      "property": "EnrageCooldown_Normal",
+      "declaringClass": "BP_EnemyGhost_Base_C"
+    },
+    {
+      "id": 108846,
+      "name": "Enrage Cooldown Hard",
+      "old": [
+        "5b0",
+        "654"
+      ],
+      "updated": [
+        "5d0",
+        "654"
+      ],
+      "property": "EnrageCooldown_Hard",
+      "declaringClass": "BP_EnemyGhost_Base_C"
+    },
+    {
+      "id": 108847,
+      "name": "Rage On Match Start Normal",
+      "old": [
+        "5b0",
+        "658"
+      ],
+      "updated": [
+        "5d0",
+        "658"
+      ],
+      "property": "RageOnMatchStart_Normal",
+      "declaringClass": "BP_EnemyGhost_Base_C"
+    },
+    {
+      "id": 108848,
+      "name": "Rage On Match Start Hard",
+      "old": [
+        "5b0",
+        "65c"
+      ],
+      "updated": [
+        "5d0",
+        "65c"
+      ],
+      "property": "RageOnMatchStart_Hard",
+      "declaringClass": "BP_EnemyGhost_Base_C"
+    },
+    {
+      "id": 108851,
+      "name": "Initial Chase Speed",
+      "old": [
+        "5b0",
+        "6dc"
+      ],
+      "updated": [
+        "5d0",
+        "6dc"
+      ],
+      "property": "InitialChaseSpeed",
+      "declaringClass": "BP_EnemyGhost_Base_C"
+    },
+    {
+      "id": 108852,
+      "name": "Time Of Chase",
+      "old": [
+        "5b0",
+        "6e0"
+      ],
+      "updated": [
+        "5d0",
+        "6e0"
+      ],
+      "property": "timeofchase",
+      "declaringClass": "BP_EnemyGhost_Base_C"
+    },
+    {
+      "id": 108819,
+      "name": "Target In Melee Range",
+      "old": [
+        "5b0",
+        "504"
+      ],
+      "updated": [
+        "5d0",
+        "504"
+      ],
+      "property": "TargetInMeleeRange",
+      "declaringClass": "BP_EnemyGhost_Base_C"
+    },
+    {
+      "id": 108820,
+      "name": "Chasing Player",
+      "old": [
+        "5b0",
+        "505"
+      ],
+      "updated": [
+        "5d0",
+        "505"
+      ],
+      "property": "ChasingPlayer",
+      "declaringClass": "BP_EnemyGhost_Base_C"
+    },
+    {
+      "id": 108821,
+      "name": "Is Hunting",
+      "old": [
+        "5b0",
+        "520"
+      ],
+      "updated": [
+        "5d0",
+        "520"
+      ],
+      "property": "isHunting",
+      "declaringClass": "BP_EnemyGhost_Base_C"
+    },
+    {
+      "id": 108822,
+      "name": "Is In Rage",
+      "old": [
+        "5b0",
+        "558"
+      ],
+      "updated": [
+        "5d0",
+        "558"
+      ],
+      "property": "isInRage",
+      "declaringClass": "BP_EnemyGhost_Base_C"
+    },
+    {
+      "id": 108823,
+      "name": "Is Lurking",
+      "old": [
+        "5b0",
+        "570"
+      ],
+      "updated": [
+        "5d0",
+        "570"
+      ],
+      "property": "isLurking",
+      "declaringClass": "BP_EnemyGhost_Base_C"
+    },
+    {
+      "id": 108831,
+      "name": "Is Busy",
+      "old": [
+        "5b0",
+        "5d8"
+      ],
+      "updated": [
+        "5d0",
+        "5d8"
+      ],
+      "property": "isBusy",
+      "declaringClass": "BP_EnemyGhost_Base_C"
+    },
+    {
+      "id": 108849,
+      "name": "Is Allowed To Get Active",
+      "old": [
+        "5b0",
+        "6d8"
+      ],
+      "updated": [
+        "5d0",
+        "6d8"
+      ],
+      "property": "isAllowedToGetActive",
+      "declaringClass": "BP_EnemyGhost_Base_C"
+    },
+    {
+      "id": 108850,
+      "name": "Can Shut Doors",
+      "old": [
+        "5b0",
+        "6d9"
+      ],
+      "updated": [
+        "5d0",
+        "6d9"
+      ],
+      "property": "canShutDoors",
+      "declaringClass": "BP_EnemyGhost_Base_C"
+    },
+    {
+      "id": 108853,
+      "name": "Play Level Sequence",
+      "old": [
+        "5b0",
+        "718"
+      ],
+      "updated": [
+        "5d0",
+        "720"
+      ],
+      "property": "PlayLevelSequence",
+      "declaringClass": "BP_EnemyGhost_Grandma_C"
+    },
+    {
+      "id": 108898,
+      "name": "Experience Before Match",
+      "old": [
+        "258",
+        "298",
+        "70",
+        "80",
+        "4e8"
+      ],
+      "updated": [
+        "258",
+        "298",
+        "70",
+        "80",
+        "4f0"
+      ],
+      "property": "ExperienceBeforeMatch",
+      "declaringClass": "BP_GameInstance_C"
+    },
+    {
+      "id": 108899,
+      "name": "Player Money Before Match",
+      "old": [
+        "258",
+        "298",
+        "70",
+        "80",
+        "4ec"
+      ],
+      "updated": [
+        "258",
+        "298",
+        "70",
+        "80",
+        "4f4"
+      ],
+      "property": "PlayerMoneyBeforeMatch",
+      "declaringClass": "BP_GameInstance_C"
+    },
+    {
+      "id": 108897,
+      "name": "Toilets Unclogged",
+      "old": [
+        "258",
+        "298",
+        "70",
+        "80",
+        "4c8"
+      ],
+      "updated": [
+        "258",
+        "298",
+        "70",
+        "80",
+        "4d0"
+      ],
+      "property": "Toilets Unclogged",
+      "declaringClass": "BP_GameInstance_C"
+    },
+    {
+      "id": 108900,
+      "name": "Ectoplasm Cleaned",
+      "old": [
+        "258",
+        "298",
+        "70",
+        "80",
+        "510"
+      ],
+      "updated": [
+        "258",
+        "298",
+        "70",
+        "80",
+        "518"
+      ],
+      "property": "EctoplasmCleaned",
+      "declaringClass": "BP_GameInstance_C"
+    },
+    {
+      "id": 108901,
+      "name": "Satanic Symbols Overpainted",
+      "old": [
+        "258",
+        "298",
+        "70",
+        "80",
+        "514"
+      ],
+      "updated": [
+        "258",
+        "298",
+        "70",
+        "80",
+        "51c"
+      ],
+      "property": "SatanicSymbolsOverpainted",
+      "declaringClass": "BP_GameInstance_C"
+    },
+    {
+      "id": 108902,
+      "name": "Power Turned Back On",
+      "old": [
+        "258",
+        "298",
+        "70",
+        "80",
+        "5b8"
+      ],
+      "updated": [
+        "258",
+        "298",
+        "70",
+        "80",
+        "5c0"
+      ],
+      "property": "PowerTurnedBackOn",
+      "declaringClass": "BP_GameInstance_C"
+    },
+    {
+      "id": 108903,
+      "name": "Wood Planks Removed",
+      "old": [
+        "258",
+        "298",
+        "70",
+        "80",
+        "5bc"
+      ],
+      "updated": [
+        "258",
+        "298",
+        "70",
+        "80",
+        "5c4"
+      ],
+      "property": "WoodPlanksRemoved",
+      "declaringClass": "BP_GameInstance_C"
+    },
+    {
+      "id": 108904,
+      "name": "FOV",
+      "old": [
+        "258",
+        "298",
+        "70",
+        "80",
+        "690"
+      ],
+      "updated": [
+        "258",
+        "298",
+        "70",
+        "80",
+        "698"
+      ],
+      "property": "FOV",
+      "declaringClass": "BP_GameInstance_C"
+    },
+    {
+      "id": 108905,
+      "name": "Prestige Overflow Experience",
+      "old": [
+        "258",
+        "298",
+        "70",
+        "80",
+        "6c0"
+      ],
+      "updated": [
+        "258",
+        "298",
+        "70",
+        "80",
+        "6c8"
+      ],
+      "property": "PrestigeOverflowEXP",
+      "declaringClass": "BP_GameInstance_C"
+    }
+  ]
+}
